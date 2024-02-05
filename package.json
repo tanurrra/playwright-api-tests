@@ -8,7 +8,7 @@
   "author": "Tatyana Velikanova",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.40.1",
+    "@playwright/test": "^1.41.2",
     "@types/node": "^20.11.0",
     "allure-commandline": "^2.26.0",
     "allure-playwright": "^2.11.1"

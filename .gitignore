@@ -5,3 +5,4 @@ playwright-report/
 /playwright/.cache/
 allure-results/
 package-lock.json
+/test-results/
