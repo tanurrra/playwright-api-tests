@@ -17,13 +17,17 @@ To install npm packages:
 
 ```npm ci```
 
-To run tests:
+To run tests locally:
 
 ```npx playwright test --reporter=line,allure-playwright ```
 
-To serve beautiful Allure report in HTML
+To serve beautiful Allure report in HTML locally:
 
 ```npx allure serve allure-results```
+
+To run tests on Github:
+
+Project contains `.github/workflows/playwright.yml` config for running tests in GitHub actions for push and for pull requests on branches [ main, master ]. Test results will be stored in allure-results folder for 30 days. 
 
 ### Not included in this solution/can be improved
 This is a quick solution for demo purposes and it's far from scalable prod version. 
