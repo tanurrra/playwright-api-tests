@@ -10,6 +10,7 @@ Goal is to explore usage of Playwright to test restAPI endpoints on the exapmple
 ## Technology
 - Playwright as a test framework 
 - Allure as test reporter 
+- Github actions to run tests in CI on push, pull requests
 
 ## How to run
 Make sure you have node.js, npm installed and all the required packages. 
